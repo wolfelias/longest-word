@@ -29,16 +29,6 @@ public class Main {
         // set input/output paths:
         FileInputFormat.addInputPath(job, new Path("/Users/elias/Documents/Uni/HTW/MA/ProgAlg/HadoopWordCount/src/main/resources/input/*"));
 
-        /*
-        FileInputFormat.addInputPath(job, new Path("/Users/elias/Documents/Uni/HTW/MA/ProgAlg/HadoopWordCount/src/main/resources/input/Dutch/*"));
-        FileInputFormat.addInputPath(job, new Path("/Users/elias/Documents/Uni/HTW/MA/ProgAlg/HadoopWordCount/src/main/resources/input/English/*"));
-        FileInputFormat.addInputPath(job, new Path("/Users/elias/Documents/Uni/HTW/MA/ProgAlg/HadoopWordCount/src/main/resources/input/French/*"));
-        FileInputFormat.addInputPath(job, new Path("/Users/elias/Documents/Uni/HTW/MA/ProgAlg/HadoopWordCount/src/main/resources/input/Italian/*"));
-        FileInputFormat.addInputPath(job, new Path("/Users/elias/Documents/Uni/HTW/MA/ProgAlg/HadoopWordCount/src/main/resources/input/Russian/*"));
-        FileInputFormat.addInputPath(job, new Path("/Users/elias/Documents/Uni/HTW/MA/ProgAlg/HadoopWordCount/src/main/resources/input/Spanish/*"));
-        FileInputFormat.addInputPath(job, new Path("/Users/elias/Documents/Uni/HTW/MA/ProgAlg/HadoopWordCount/src/main/resources/input/Ukrainian/*"));
-        */
-
         //  check if exists:
         FileSystem fs = FileSystem.get(conf);
 
