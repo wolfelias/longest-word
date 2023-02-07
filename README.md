@@ -1,4 +1,7 @@
-# Hadoop Word Counter
+# Hadoop Longest Word
+
+*DOCUMENTATION CAN BE FOUND IN FILES*
+
 
 In order to run the program, go to file->Project Structure->Modules. Add Jars->Add the following jars:
 * hadoop-common-3.3.4.jar
